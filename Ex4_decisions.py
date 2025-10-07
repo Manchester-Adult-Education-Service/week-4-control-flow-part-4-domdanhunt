@@ -27,7 +27,9 @@
 # 3. Print a message if the condition is True.
 
 # Write your code below:
-
+num1 = int(input("Type in a number: "))
+if num1 > 0:
+    print("Your number is greater than 0")
 
 # Step 2: Add else
 # ----------------
@@ -44,7 +46,12 @@
 # 2. Print a different message if the number does not meet your condition.
 
 # Write your code below:
-
+num2 = int(input("Input another number: "))
+if num2 > 0: 
+    print("Your number is greater than zero")
+else:
+    if num2 < 0: 
+        print("Your number is less than 0")   
 
 # Step 3: Multiple conditions
 # ---------------------------
@@ -64,7 +71,13 @@
 # 3. Test your program with different inputs to see all possible messages.
 
 # Write your code below:
-
+num3 = int(input("Please enter another number"))
+if num3 > 0: 
+    print("Your number is greater than 0")
+elif num3 == 0:
+    print ("Your number is equal to 0")
+else: 
+    print("Your number is less than 0")
 
 # -------------------------------------------
 # Submitting Your Work
