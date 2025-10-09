@@ -27,9 +27,12 @@
 # 3. Print a message if the condition is True.
 
 # Write your code below:
-num1 = int(input("Type in a number: "))
+
+
+num1 = int(input("Step 1: Type in a number: "))
 if num1 > 0:
     print("Your number is greater than 0")
+
 
 # Step 2: Add else
 # ----------------
@@ -46,12 +49,15 @@ if num1 > 0:
 # 2. Print a different message if the number does not meet your condition.
 
 # Write your code below:
-num2 = int(input("Input another number: "))
+
+
+num2 = int(input("Step 2: Input another number: "))
 if num2 > 0: 
     print("Your number is greater than zero")
 else:
     if num2 < 0: 
         print("Your number is less than 0")   
+
 
 # Step 3: Multiple conditions
 # ---------------------------
@@ -71,13 +77,17 @@ else:
 # 3. Test your program with different inputs to see all possible messages.
 
 # Write your code below:
-num3 = int(input("Please enter another number"))
+
+
+num3 = int(input("Step 3: Please enter another number: "))
 if num3 > 0: 
     print("Your number is greater than 0")
 elif num3 == 0:
     print ("Your number is equal to 0")
 else: 
     print("Your number is less than 0")
+
+
 
 # -------------------------------------------
 # Submitting Your Work
@@ -115,6 +125,29 @@ else:
 # - Add another condition to give a special message if the answer is partially correct.
 
 # Write your extension code below:
+
+#Ext1
+
+
+num4 = int(input("Ext 1: Please enter a number: "))
+word1 = input("Now please enter a word: ")
+if num4 > 4 and word1 == "pizza":
+    print(f"Mmmmmmm. I would like {num4} pizzas too.")
+
+
+#Ext2
+
+num5 = int(input("Ext 2: Please enter a number: "))
+if num5 > 0:
+    print("Your number is positive!")
+elif num5 == 0:
+    print("Your number is 0, does that mean it's neither positive or negative?")
+else:
+    print("Your number is negative, but you don't have to be!")
+
+
+#Ext3
+
 
 
 # -------------------------------------------
